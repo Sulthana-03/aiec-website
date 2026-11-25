@@ -521,3 +521,7 @@ form.enq{background:#fff;border:2px solid #cfd6df;border-top:6px solid var(--red
 .btn{text-align:center}
 @media (max-width:1120px){.nav .mobile-cta{display:flex;justify-content:center;align-items:center;text-align:center}}
 @media (max-width:640px){.hero-btns .btn,.cta .btns .btn,.ft-cta-btns .btn{justify-content:center;text-align:center}}
+#enq{scroll-margin-top:calc(var(--header-h) + 44px)}
+
+/* v9: keep the header sticky (overflow:hidden on html/body breaks position:sticky) */
+@supports (overflow:clip){html,body{overflow-x:clip}}

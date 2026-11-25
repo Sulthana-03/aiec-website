@@ -14,6 +14,14 @@ export default function CtaLink({ type, onClick, children, ...rest }: CtaLinkPro
   const handleClick = (e: MouseEvent<HTMLAnchorElement>) => {
     if (type) setType(type);
     onClick?.(e);
+    // go straight to the form (not the top of the contact section); wait a tick so a closing mobile menu releases scroll-lock
+    if (type) {
+      const form = document.getElementById("enq");
+      if (form && form.scrollIntoView) {
+        e.preventDefault();
+        window.setTimeout(() => form.scrollIntoView({ behavior: "smooth", block: "start" }), 60);
+      }
+    }
   };
   return (
     <a {...rest} data-type={type} onClick={handleClick}>

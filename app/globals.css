@@ -512,3 +512,7 @@ form.enq{background:#fff;border:2px solid #cfd6df;border-top:6px solid var(--red
 .brand .logo-box{padding:5px 9px;border-radius:12px}
 @media (max-width:1120px){.brand .logo-box img{height:42px}}
 @media (max-width:420px){.brand .logo-box img{height:36px}}
+
+/* v7: back-to-top pinned to the right */
+.ft-top{margin-left:auto}
+@media (max-width:640px){.ft-top{align-self:flex-end}}

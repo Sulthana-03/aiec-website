@@ -6,9 +6,9 @@ import Header from "@/components/Header";
 describe("Header", () => {
   it("shows the logo with alt text", () => {
     render(<Header />);
-    const logo = screen.getByAltText("Ahmadiah logo");
+    const logo = screen.getByAltText("AIEC logo");
     expect(logo).toBeInTheDocument();
-    expect(logo).toHaveAttribute("src", "/images/logo.png");
+    expect(logo).toHaveAttribute("src", "/images/aiec-logo.png");
   });
 
   it("renders every nav link with the right href", () => {

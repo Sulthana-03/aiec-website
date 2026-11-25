@@ -10,6 +10,7 @@ import MobileActionBar from "@/components/MobileActionBar";
 import Partners from "@/components/Partners";
 import Products from "@/components/Products";
 import Projects from "@/components/Projects";
+import Sectors from "@/components/Sectors";
 import Services from "@/components/Services";
 import SkipLink from "@/components/SkipLink";
 import TopBar from "@/components/TopBar";
@@ -26,6 +27,7 @@ export default function Home() {
         <About />
         <Products />
         <History />
+        <Sectors />
         <Projects />
         <Services />
         <Partners />

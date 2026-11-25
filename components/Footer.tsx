@@ -81,7 +81,7 @@ export default function Footer() {
             W.L.L (AIEC). All rights reserved.
           </span>
           <span className="ft-credit" id="photoCredit">
-            Photos:{" "}
+            Project photos: Wikimedia Commons (CC BY-SA / CC0). Other photos:{" "}
             <a href="https://www.pexels.com" target="_blank" rel="noopener">
               Pexels
             </a>{" "}

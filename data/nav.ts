@@ -67,4 +67,4 @@ export const navItems: NavItem[] = [
 ];
 
 /** Sections tracked for the active nav link (same list as the original script). */
-export const trackedSections: string[] = ["home", "about", "products", "services", "projects", "contact"];
+export const trackedSections: string[] = ["home", "about", "products", "sectors", "services", "projects", "contact"];

@@ -21,7 +21,7 @@ describe("Page", () => {
     const ids = Array.from(root.querySelectorAll("main > section[id], main > .stats")).map(
       (el) => el.id || el.className,
     );
-    expect(ids).toEqual(["home", "stats", "about", "products", "history", "projects", "services", "partners", "contact"]);
+    expect(ids).toEqual(["home", "stats", "about", "products", "history", "sectors", "projects", "services", "partners", "contact"]);
     expect(root.querySelector("main > section[aria-label='Get in touch']")).toBeInTheDocument();
     expect(root.querySelector(".topbar")).toBeInTheDocument();
     expect(root.querySelector("header.header")).toBeInTheDocument();

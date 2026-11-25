@@ -16,7 +16,7 @@ export default function Projects() {
   };
 
   return (
-    <section className="section" id="projects">
+    <section className="section proj-dark" id="projects">
       <div className="wrap">
         <div className="sec-top">
           <Reveal className="sec-head">
@@ -59,6 +59,13 @@ export default function Projects() {
                 <span className="tag">{p.tag}</span>
                 <h3>{p.title}</h3>
                 <p>{p.text}</p>
+                {p.location && (
+                  <div className="meta">
+                    <span>{p.location}</span>
+                    <span>{p.scope}</span>
+                  </div>
+                )}
+                {p.service && <span className="svc-pill">{p.service}</span>}
               </div>
             </Reveal>
           ))}

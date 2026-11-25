@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Ahmadiah International Elevator Co. W.L.L (AIEC) – Elevators, Escalators & Moving Walks in Kuwait",
   description:
     "AIEC – a joint venture between Ahmadiah Contracting & Trading Co. and Hitachi Limited Japan. Supply, installation and after-sales service of elevators, escalators, moving walks and façade cleaning systems in Kuwait.",
-  icons: { icon: { url: "/images/favicon.png", type: "image/png" } },
+  icons: { icon: { url: "/images/favicon.png?v=4", type: "image/png" } },
 };
 
 export const viewport: Viewport = {

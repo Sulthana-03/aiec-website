@@ -77,12 +77,12 @@ export default function Header() {
       <div className="wrap">
         <a href="#home" className="brand" aria-label="AIEC – Ahmadiah International Elevator Co. – home">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/logo.png" alt="Ahmadiah logo" width={436} height={93} />
+          <span className="logo-box">
+            <img src="/images/aiec-logo.png" alt="AIEC logo" width={293} height={232} />
+          </span>
           <span className="aiec">
-            <b>
-              A<span>I</span>EC
-            </b>
-            <small>Elevator Company</small>
+            <b>AIEC</b>
+            <small>Ahmadiah International Elevator Co.</small>
           </span>
         </a>
 

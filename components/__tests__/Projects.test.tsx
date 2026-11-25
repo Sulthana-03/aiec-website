@@ -33,7 +33,7 @@ describe("Projects", () => {
     ["Hospitals", "Hospitals"],
     ["Banks", "Banks"],
     ["Government", "Government"],
-    [/Residential/, "Residential"],
+    [/Residential/, "Commercial"],
   ] as const)("chip %s shows only the matching card", async (chipName, tag) => {
     const user = userEvent.setup();
     const { container } = render(<Projects />);
